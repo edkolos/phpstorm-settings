@@ -1,0 +1,34 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1ebfd69c-9dfc-4c5d-b271-e3743668dafa" name="master@restaserver.ru" url="http://restaserver.ru">
+        <fileTransfer host="restaserver.ru" port="22" rootFolder="/var/www/restaserver.ru/www" accessType="SFTP" password="dfc7dfcbdfd9dfdedfcfdfd8dffadfebdff9dff9df9adf9adf9d" username="master">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="90f038ed-88f8-4569-bd7e-7d65f4d9288e" name="dev@restaserver.ru" url="http://restaserver.ru">
+        <fileTransfer host="restaserver.ru" port="22" rootFolder="/var/www/dev.restaserver.ru/www" accessType="SFTP" password="dfcedfcfdfdcdffadfebdff9dff9df9adf9adf9b" username="dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b7347638-4c68-42a6-a197-f266f386d750" name="code@snapme.ru" url="http://snapme.ru">
+        <fileTransfer host="snapme.ru" port="22" rootFolder="/var/www/rafinad-dress.ru/www" accessType="SFTP" password="dfd9dfdfdfdadfcfdfd8dfe9dfe5dfeedfefdf9bdf98df99" username="code">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4fc4229a-a787-446e-ab77-acc153c0f7c9" name="u145229024@agrouniver.esy.es" url="http://agrouniver.esy.es">
+        <fileTransfer host="agrouniver.esy.es" port="21" password="dfc1dfc5dfc6dfc5dfd9dfd3dfcbdfc4df98df98df9adf9d" username="u145229024">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
