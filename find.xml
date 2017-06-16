@@ -17,9 +17,12 @@
       <mask>*.php</mask>
       <mask>*.js</mask>
       <mask>*.jade</mask>
-      <mask>*.less</mask>
       <mask>*.ts</mask>
       <mask>*.pug</mask>
+      <mask>*.</mask>
+      <mask>*.le</mask>
+      <mask>*.les</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
