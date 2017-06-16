@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9dd36b9d-f2eb-4fe0-a8c2-bdc6413796fe" name="Deskle (Office)" url="http://10.0.0.240">
+        <fileTransfer host="10.0.0.240" port="22" rootFolder="/home/www/sites/deskle.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="db6d8e78-ff4e-4036-a0a3-4efa1716c1d4" name="Deskle (USA)" url="http://64.58.114.220">
+        <fileTransfer host="64.58.114.220" port="22" rootFolder="/home/deskle/www/deskle.com/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="18ef7f73-4acb-48d8-848c-85529d904309" name="Deskle (China)" url="http://137.59.21.10">
+        <fileTransfer host="137.59.21.10" port="22" rootFolder="/home/deskle/www/deskle.com/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
