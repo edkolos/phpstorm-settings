@@ -36,6 +36,7 @@
   <action id="CopyElement" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="shift back_space" />
   </action>
@@ -172,6 +173,7 @@
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -195,6 +197,7 @@
     <keyboard-shortcut first-keystroke="alt f5" />
     <keyboard-shortcut first-keystroke="ctrl 9" />
   </action>
+  <action id="GotoBookmark1" />
   <action id="GotoBookmark7" />
   <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
@@ -260,6 +263,9 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Diff" />
   <action id="ShowFilePath" />
+  <action id="StringManipulation.ToHyphenCaseAction">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
   <action id="SurroundWith" />
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
