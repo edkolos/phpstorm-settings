@@ -15,9 +15,6 @@
       <mask>*.mxml</mask>
       <mask>*.js</mask>
       <mask>*.jade</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
       <mask>*.ph</mask>
       <mask>*.h</mask>
       <mask>*.ht</mask>
@@ -25,10 +22,14 @@
       <mask>*.ts</mask>
       <mask>*.t</mask>
       <mask>*.php</mask>
-      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
+      <mask>*.</mask>
+      <mask>*.l</mask>
+      <mask>*.le</mask>
+      <mask>*.les</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
