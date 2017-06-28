@@ -25,11 +25,11 @@
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pug</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
