@@ -30,6 +30,7 @@
       <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
+      <mask>''</mask>
       <mask>*.pug</mask>
     </recentFileMasks>
   </component>
