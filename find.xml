@@ -20,17 +20,17 @@
       <mask>*.ht</mask>
       <mask>*.html</mask>
       <mask>*.php</mask>
-      <mask>*.l</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
       <mask>*.pu</mask>
       <mask>''</mask>
+      <mask>*.p</mask>
+      <mask>*.pug</mask>
+      <mask>*.</mask>
+      <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.</mask>
-      <mask>*.p</mask>
-      <mask>*.pug</mask>
     </recentFileMasks>
   </component>
 </application>
