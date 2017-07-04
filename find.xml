@@ -21,16 +21,16 @@
       <mask>*.html</mask>
       <mask>*.php</mask>
       <mask>''</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
+      <mask>*.p</mask>
+      <mask>*.pu</mask>
+      <mask>*.pug</mask>
+      <mask>*.</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
-      <mask>*.</mask>
-      <mask>*.p</mask>
-      <mask>*.pu</mask>
-      <mask>*.pug</mask>
     </recentFileMasks>
   </component>
 </application>
