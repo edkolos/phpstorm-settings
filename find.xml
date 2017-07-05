@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.pug" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -21,12 +22,12 @@
       <mask>*.html</mask>
       <mask>*.php</mask>
       <mask>''</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.ts</mask>
+      <mask>*.t</mask>
       <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
