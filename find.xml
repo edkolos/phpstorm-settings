@@ -11,7 +11,6 @@
       <mask>*.xml</mask>
       <mask>*.java</mask>
       <mask>*.as</mask>
-      <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.jade</mask>
       <mask>*.ph</mask>
@@ -24,16 +23,19 @@
       <mask>*.js</mask>
       <mask>*.jso</mask>
       <mask>*.json</mask>
+      <mask>*.p</mask>
+      <mask>*.pu</mask>
+      <mask>*.pug</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
+      <mask>*.c</mask>
+      <mask>*.cs</mask>
+      <mask>*.css</mask>
+      <mask>*.</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.p</mask>
-      <mask>*.pu</mask>
-      <mask>*.pug</mask>
-      <mask>*.</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
