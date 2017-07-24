@@ -21,7 +21,9 @@
     <keyboard-shortcut first-keystroke="f5" />
     <keyboard-shortcut first-keystroke="ctrl 7" />
   </action>
-  <action id="CheckinProject" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl 7" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseAllUnpinnedEditors">
     <keyboard-shortcut first-keystroke="ctrl alt x" />
