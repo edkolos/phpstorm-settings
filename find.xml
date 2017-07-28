@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
       <mask>*.mxml</mask>
       <mask>*.jade</mask>
@@ -22,9 +23,6 @@
       <mask>*.cs</mask>
       <mask>*.css</mask>
       <mask>*.l</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
       <mask>*.t</mask>
       <mask>*</mask>
       <mask>.</mask>
@@ -32,10 +30,13 @@
       <mask>..ts</mask>
       <mask>.ts</mask>
       <mask>*.ts</mask>
-      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
+      <mask>*.</mask>
+      <mask>*.le</mask>
+      <mask>*.les</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
