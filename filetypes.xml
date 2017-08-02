@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="xlf" type="PLAIN_TEXT" />
+      <mapping pattern="guest-landing" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
+      <mapping ext="xlf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
