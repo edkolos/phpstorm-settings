@@ -139,7 +139,9 @@
     <keyboard-shortcut first-keystroke="shift alt h" />
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
-  <action id="EditorToggleCase" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
