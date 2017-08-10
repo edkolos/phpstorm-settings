@@ -5,8 +5,8 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.sh" />
     <recentFileMasks>
-      <mask>*.jade</mask>
       <mask>*.ph</mask>
       <mask>*.php</mask>
       <mask>''</mask>
@@ -33,9 +33,10 @@
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
-      <mask>*.</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*.</mask>
+      <mask>*.sh</mask>
     </recentFileMasks>
   </component>
 </application>
