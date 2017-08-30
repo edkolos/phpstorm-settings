@@ -6,8 +6,6 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>''</mask>
-      <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.jso</mask>
       <mask>*.json</mask>
@@ -30,12 +28,14 @@
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
+      <mask>*.з</mask>
+      <mask>*.згп</mask>
       <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
