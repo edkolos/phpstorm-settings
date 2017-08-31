@@ -5,14 +5,10 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
       <mask>*.js</mask>
       <mask>*.jso</mask>
       <mask>*.json</mask>
-      <mask>*.c</mask>
-      <mask>*.cs</mask>
-      <mask>*.css</mask>
       <mask>*</mask>
       <mask>.</mask>
       <mask>.t</mask>
@@ -32,11 +28,14 @@
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
-      <mask>*.</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.</mask>
+      <mask>*.c</mask>
+      <mask>*.cs</mask>
+      <mask>*.css</mask>
     </recentFileMasks>
   </component>
 </application>
