@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.pug" />
     <recentFileMasks>
       <mask>*.json</mask>
       <mask>*</mask>
@@ -20,7 +21,6 @@
       <mask>*.д</mask>
       <mask>*.з</mask>
       <mask>*.згп</mask>
-      <mask>*.pu</mask>
       <mask>*.c</mask>
       <mask>*.cs</mask>
       <mask>*.css</mask>
@@ -30,12 +30,13 @@
       <mask>*.дуы</mask>
       <mask>*.дуыы</mask>
       <mask>*.l</mask>
-      <mask>*.p</mask>
-      <mask>*.pug</mask>
-      <mask>*.</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.pu</mask>
+      <mask>*.pug</mask>
     </recentFileMasks>
   </component>
 </application>
