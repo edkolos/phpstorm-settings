@@ -21,10 +21,6 @@
       <mask>*.ду</mask>
       <mask>*.дуы</mask>
       <mask>*.дуыы</mask>
-      <mask>*.l</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
       <mask>*.е</mask>
       <mask>*.еы</mask>
       <mask>*.t</mask>
@@ -36,6 +32,10 @@
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
+      <mask>*.l</mask>
+      <mask>*.le</mask>
+      <mask>*.les</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
