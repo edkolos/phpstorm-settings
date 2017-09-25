@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="*.js.example" type="ECMAScript 6" />
+      <mapping pattern="account-dropdown.less" type="Less" />
       <mapping pattern="123" type="PLAIN_TEXT" />
       <mapping pattern="guest-landing" type="PLAIN_TEXT" />
       <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
