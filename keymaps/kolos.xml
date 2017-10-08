@@ -1,9 +1,13 @@
 <keymap version="1" name="kolos" parent="Default for XWin">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
@@ -32,6 +36,10 @@
   <action id="Diff.ShowDiff" />
   <action id="DomCollectionControl.Remove">
     <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="button2" />
@@ -156,6 +164,7 @@
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -177,11 +186,15 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl 9" />
   </action>
+  <action id="GotoBookmark1" />
   <action id="GotoBookmark7" />
   <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
