@@ -1,13 +1,12 @@
 <keymap version="1" name="kolos" parent="Default for XWin">
-  <action id="$Delete">
-    <keyboard-shortcut first-keystroke="delete" />
-    <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
   </action>
   <action id="AutoIndentLines" />
   <action id="ChangesView.Commit">
@@ -31,8 +30,8 @@
   <action id="CopyElement" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
-  <action id="Editor Delete">
-    <keyboard-shortcut first-keystroke="ctrl e" />
+  <action id="DomCollectionControl.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="button2" />
@@ -113,7 +112,9 @@
     <keyboard-shortcut first-keystroke="shift right" />
     <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
   </action>
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -168,7 +169,6 @@
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
-    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
@@ -190,6 +190,9 @@
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="Graph.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
@@ -262,9 +265,7 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Switcher">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-    <keyboard-shortcut first-keystroke="ctrl q" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="f11" />
@@ -273,6 +274,9 @@
   <action id="TypeHierarchy" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Push">
@@ -287,7 +291,13 @@
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="VimPluginToggle" />
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="hg4idea.QDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
 </keymap>
