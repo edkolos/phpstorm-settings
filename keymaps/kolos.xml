@@ -194,6 +194,7 @@
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -215,6 +216,10 @@
   <action id="InsertLiveTemplate" />
   <action id="MaximizeToolWindow" />
   <action id="MethodHierarchy" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -233,10 +238,6 @@
   <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt r" />
-  </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="Replace" />
   <action id="RunJsbtTask">
