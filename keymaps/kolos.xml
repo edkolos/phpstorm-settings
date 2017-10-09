@@ -51,6 +51,10 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
@@ -222,14 +226,20 @@
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
   <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
