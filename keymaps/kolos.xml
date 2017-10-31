@@ -6,9 +6,7 @@
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
-  <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
+  <action id="ActivateTerminalToolWindow" />
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
@@ -196,10 +194,6 @@
   <action id="GotoBookmark9" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
-  <action id="GotoDeclaration">
-    <mouse-shortcut keystroke="control button1" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
-  </action>
   <action id="GotoFile" />
   <action id="GotoLine" />
   <action id="GotoNextBookmark">
