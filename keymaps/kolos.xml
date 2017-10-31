@@ -200,9 +200,7 @@
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="ctrl o" />
-  </action>
+  <action id="GotoFile" />
   <action id="GotoLine" />
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="alt f" />
@@ -253,6 +251,9 @@
   <action id="RunJsbtTask">
     <keyboard-shortcut first-keystroke="alt f11" />
     <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
