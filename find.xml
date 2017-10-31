@@ -24,18 +24,18 @@
       <mask>*.зг</mask>
       <mask>*.згп</mask>
       <mask>*</mask>
+      <mask>*.pi</mask>
+      <mask>*.u</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.pi</mask>
-      <mask>*.u</mask>
+      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
-      <mask>*.</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
