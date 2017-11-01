@@ -30,12 +30,12 @@
       <mask>*.ts</mask>
       <mask>*.l</mask>
       <mask>*.pu</mask>
+      <mask>*.p</mask>
+      <mask>*.pug</mask>
+      <mask>*.</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.</mask>
-      <mask>*.p</mask>
-      <mask>*.pug</mask>
     </recentFileMasks>
   </component>
 </application>
