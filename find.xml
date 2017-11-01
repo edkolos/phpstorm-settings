@@ -6,11 +6,6 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.h</mask>
-      <mask>*.ht</mask>
-      <mask>*.htm</mask>
-      <mask>*.html</mask>
-      <mask>*.sh</mask>
       <mask>*.д</mask>
       <mask>*.c</mask>
       <mask>*.cs</mask>
@@ -28,14 +23,19 @@
       <mask>*.u</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
-      <mask>*.l</mask>
+      <mask>*.s</mask>
+      <mask>*.sv</mask>
+      <mask>*.svg</mask>
       <mask>*.pu</mask>
-      <mask>*.p</mask>
       <mask>*.pug</mask>
-      <mask>*.</mask>
+      <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
