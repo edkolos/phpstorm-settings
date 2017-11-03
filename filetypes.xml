@@ -7,6 +7,7 @@
       <mapping pattern="guest-landing" type="PLAIN_TEXT" />
       <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
       <mapping pattern="11111111111111" type="PLAIN_TEXT" />
+      <mapping pattern="VERSION" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="PLAIN_TEXT" />
     </extensionMap>
