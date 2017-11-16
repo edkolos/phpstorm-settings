@@ -6,9 +6,6 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.д</mask>
-      <mask>*.c</mask>
-      <mask>*.cs</mask>
       <mask>*.css</mask>
       <mask>*.ду</mask>
       <mask>*.дуы</mask>
@@ -30,12 +27,15 @@
       <mask>*.less</mask>
       <mask>*.е</mask>
       <mask>*.еы</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
-      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
+      <mask>*.</mask>
+      <mask>*.P</mask>
+      <mask>*.PU</mask>
+      <mask>*.PUG</mask>
     </recentFileMasks>
   </component>
 </application>
