@@ -126,10 +126,6 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="EditorSplitLine" />
-  <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="alt e" />
