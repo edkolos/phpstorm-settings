@@ -29,6 +29,10 @@
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="Console.TableResult.Submit" />
   <action id="CopyElement" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
@@ -42,6 +46,7 @@
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
@@ -53,6 +58,7 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
@@ -126,6 +132,10 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="alt e" />
