@@ -1,14 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.pug" />
     <recentFileMasks>
-      <mask>*.css</mask>
       <mask>*.ду</mask>
       <mask>*.дуы</mask>
       <mask>*.дуыы</mask>
@@ -32,12 +30,13 @@
       <mask>*.less</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
-      <mask>*.pu</mask>
-      <mask>*.pug</mask>
       <mask>*.</mask>
-      <mask>*.p</mask>
       <mask>*.ph</mask>
       <mask>*.php</mask>
+      <mask>*.p</mask>
+      <mask>*.pup</mask>
+      <mask>*.pu</mask>
+      <mask>*.pug</mask>
     </recentFileMasks>
   </component>
 </application>
