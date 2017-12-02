@@ -10,7 +10,6 @@
       <mapping pattern="VERSION" type="PLAIN_TEXT" />
       <mapping pattern="asdf" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
-      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
