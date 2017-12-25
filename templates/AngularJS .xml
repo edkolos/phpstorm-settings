@@ -1,10 +1,10 @@
 <templateSet group="AngularJS ">
-  <template name="$" value="$scope." description="" toReformat="false" toShortenFQNames="true">
+  <template name="$" value="$scope." description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="$for" value="angular.forEach($OBJ$, function($ITEM$, $KEY$) {&#10;&#9;$END$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+  <template name="$for" value="angular.forEach($OBJ$, function($ITEM$, $KEY$) {&#10;&#9;$END$&#10;});" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
@@ -12,7 +12,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="$c" value="isearch.controller(&quot;$controllerName$&quot;, ['$scope', function($scope) {&#10;&#9;&#10;&#9;$END$&#10;&#9;&#10;}]);" description="Controller" toReformat="false" toShortenFQNames="true">
+  <template name="$c" value="isearch.controller(&quot;$controllerName$&quot;, ['$scope', function($scope) {&#10;&#9;&#10;&#9;$END$&#10;&#9;&#10;}]);" description="Controller" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="controllerName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />

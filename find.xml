@@ -25,19 +25,19 @@
       <mask>*.P</mask>
       <mask>*.PU</mask>
       <mask>*.PUG</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
+      <mask>*.pup</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
-      <mask>*.</mask>
-      <mask>*.ph</mask>
-      <mask>*.php</mask>
       <mask>*.p</mask>
-      <mask>*.pup</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
+      <mask>*.</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
