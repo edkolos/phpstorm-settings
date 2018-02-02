@@ -33,9 +33,9 @@
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>*.pug</mask>
       <mask>*.less</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
