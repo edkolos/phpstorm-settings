@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.з</mask>
       <mask>*.зг</mask>
@@ -24,7 +25,6 @@
       <mask>*.php</mask>
       <mask>*.pup</mask>
       <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
@@ -36,6 +36,7 @@
       <mask>*.h</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
