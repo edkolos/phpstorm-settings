@@ -27,7 +27,6 @@
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
-      <mask>*.less</mask>
       <mask>*.p</mask>
       <mask>*.pu</mask>
       <mask>*.pug</mask>
@@ -36,6 +35,7 @@
       <mask>*.htm</mask>
       <mask>*.html</mask>
       <mask>*.ts</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
