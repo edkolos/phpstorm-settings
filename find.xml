@@ -34,8 +34,8 @@
       <mask>*.h</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*.ts</mask>
       <mask>*.less</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
