@@ -11,7 +11,6 @@
       <mapping pattern="11111111111111" type="PLAIN_TEXT" />
       <mapping pattern="asdf" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
-      <mapping ext="xlf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
