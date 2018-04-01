@@ -6,6 +6,7 @@
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="AceTargetAction" />
   <action id="ActivateTerminalToolWindow" />
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
@@ -34,6 +35,9 @@
   </action>
   <action id="Console.TableResult.Submit" />
   <action id="CopyElement" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="DomCollectionControl.Remove">
@@ -54,10 +58,6 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
-  <action id="EditorCodeBlockEnd" />
-  <action id="EditorCodeBlockEndWithSelection" />
-  <action id="EditorCodeBlockStart" />
-  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl r" />
@@ -101,7 +101,6 @@
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="EditorNextWordWithSelection">
@@ -112,7 +111,6 @@
   <action id="EditorPasteFromX11" />
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="EditorPreviousWordWithSelection">
@@ -224,19 +222,19 @@
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
