@@ -1,11 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
@@ -17,8 +15,8 @@
     <mask>*.mxml</mask>
     <mask>*.php</mask>
     <mask>*.html</mask>
-    <mask>*.ts</mask>
     <mask>*.less</mask>
     <mask>*.pug</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
