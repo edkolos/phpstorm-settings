@@ -178,6 +178,7 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
