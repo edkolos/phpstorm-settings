@@ -1,3 +1,7 @@
 <application>
-  <component name="LiveEditOptions" autoDelay="1" restartIfHotSwapFailed="true" updatePolicy="AUTO" />
+  <component name="LiveEditOptions" chromeAutoDelay="1" chromeUpdateApp="true" chromeUpdateOnChanges="true" nodeAutoDelay="1" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
 </application>
