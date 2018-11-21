@@ -1,7 +1,7 @@
 <keymap version="1" name="kolos" parent="Default for XWin">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
-    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="alt a" />
@@ -45,7 +45,7 @@
   </action>
   <action id="DuplicatesForm.SendToLeft" />
   <action id="Editor Delete">
-    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="button2" />
@@ -70,6 +70,9 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorLeft">
@@ -198,7 +201,9 @@
   <action id="GotoBookmark9" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
-  <action id="GotoFile" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="GotoLine" />
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="alt f" />
@@ -246,12 +251,17 @@
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="Replace" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.RemoveConfiguration">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="RunDashboard.UngroupConfigurations">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="RunJsbtTask">
     <keyboard-shortcut first-keystroke="alt f11" />
     <keyboard-shortcut first-keystroke="alt g" />
-  </action>
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
