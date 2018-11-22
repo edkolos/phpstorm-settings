@@ -1,7 +1,17 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping pattern="*.js.example" type="ECMAScript 6" />
+      <mapping pattern="account-dropdown.less" type="Less" />
+      <mapping pattern="Present and past.md" type="Markdown" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="11111111111111" type="PLAIN_TEXT" />
+      <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
+      <mapping pattern="VERSION" type="PLAIN_TEXT" />
+      <mapping pattern="asdf" type="PLAIN_TEXT" />
+      <mapping pattern="guest-landing" type="PLAIN_TEXT" />
+      <mapping ext="pyo" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
