@@ -20,4 +20,8 @@
     <variable name="VAR0" expression="" defaultValue="&quot;#fff&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="bgp" value="background-position:$VAR0$;" description="background-position:0 0;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
