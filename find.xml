@@ -16,7 +16,7 @@
     <mask>*.html</mask>
     <mask>*.php</mask>
     <mask>*.less</mask>
-    <mask>*.pug</mask>
     <mask>*.ts</mask>
+    <mask>*.pug</mask>
   </component>
 </application>
