@@ -13,10 +13,10 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.html</mask>
     <mask>*.php</mask>
-    <mask>*.less</mask>
-    <mask>*.ts</mask>
     <mask>*.pug</mask>
+    <mask>*.ts</mask>
+    <mask>*.less</mask>
+    <mask>*.html</mask>
   </component>
 </application>
