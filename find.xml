@@ -15,8 +15,8 @@
     <mask>*.mxml</mask>
     <mask>*.php</mask>
     <mask>*.pug</mask>
-    <mask>*.less</mask>
     <mask>*.html</mask>
     <mask>*.ts</mask>
+    <mask>*.less</mask>
   </component>
 </application>
