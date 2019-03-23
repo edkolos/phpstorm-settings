@@ -284,6 +284,10 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Diff" />
   <action id="ShowFilePath" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+  </action>
   <action id="SurroundWith" />
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="alt t" />
