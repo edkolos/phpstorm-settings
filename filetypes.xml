@@ -14,6 +14,7 @@
       <mapping pattern=".gitinore" type="PLAIN_TEXT" />
       <mapping ext="rtb" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
+      <mapping ext="php" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
