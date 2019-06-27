@@ -74,8 +74,8 @@
     </context>
   </template>
   <template name="forof" value="for (let $VALUE$ of $OBJ$) {&#10;&#9;$END$&#10;}" description="for of" toReformat="false" toShortenFQNames="true">
-    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
