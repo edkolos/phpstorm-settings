@@ -2,20 +2,33 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="*.js.example" type="ECMAScript 6" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="account-dropdown.less" type="Less" />
-      <mapping pattern="Present and past.md" type="Markdown" />
-      <mapping pattern="123" type="PLAIN_TEXT" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="11111111111111" type="PLAIN_TEXT" />
-      <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
       <mapping pattern="VERSION" type="PLAIN_TEXT" />
-      <mapping pattern="asdf" type="PLAIN_TEXT" />
+      <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
+      <mapping pattern="11111111111111" type="PLAIN_TEXT" />
       <mapping pattern=".gitinore" type="PLAIN_TEXT" />
+      <mapping pattern="asdf" type="PLAIN_TEXT" />
       <mapping pattern="guest-landing" type="PLAIN_TEXT" />
-      <mapping ext="rtb" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
-      <mapping ext="php" type="PLAIN_TEXT" />
-      <mapping ext="scss" type="PLAIN_TEXT" />
+      <mapping ext="rtb" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="scss" approved="true" type="SCSS" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="scss" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="pl" approved="true" type="textmate" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping pattern="Present and past.md" type="Markdown" />
     </extensionMap>
   </component>
 </application>
