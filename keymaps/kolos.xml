@@ -181,6 +181,7 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -231,10 +232,6 @@
   <action id="InsertLiveTemplate" />
   <action id="MaximizeToolWindow" />
   <action id="MethodHierarchy" />
-  <action id="NewElement">
-    <keyboard-shortcut first-keystroke="alt insert" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
-  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
