@@ -59,6 +59,8 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl r" />
@@ -152,7 +154,6 @@
     <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="alt y" />
     <keyboard-shortcut first-keystroke="alt h" />
-    <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl home" />
@@ -234,6 +235,7 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
@@ -243,6 +245,7 @@
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
   </action>
   <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
@@ -289,6 +292,10 @@
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="SurroundWith" />
   <action id="SurroundWithLiveTemplate">
