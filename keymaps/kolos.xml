@@ -101,6 +101,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl y" />
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="EditorMatchBrace" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="ctrl p" />
@@ -127,6 +128,7 @@
     <keyboard-shortcut first-keystroke="shift right" />
     <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
   </action>
+  <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
@@ -181,7 +183,7 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="alt s" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -205,6 +207,7 @@
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -213,10 +216,13 @@
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
-  <action id="GotoSuperMethod" />
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl alt n" />
     <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="GotoTest" />
   <action id="Graph.Delete">
@@ -272,6 +278,8 @@
     <keyboard-shortcut first-keystroke="alt f11" />
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="SavaAs" />
+  <action id="ScrollTreeToCenter" />
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -335,9 +343,7 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl 8" />
   </action>
-  <action id="Vcs.ShowMessageHistory">
-    <keyboard-shortcut first-keystroke="ctrl m" />
-  </action>
+  <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="VimAutoIndentVisual">
