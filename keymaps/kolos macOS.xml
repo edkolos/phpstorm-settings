@@ -34,23 +34,22 @@
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="ctrl e" />
-    <keyboard-shortcut first-keystroke="meta quote" />
+    <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift end" />
     <keyboard-shortcut first-keystroke="shift meta right" />
-    <keyboard-shortcut first-keystroke="shift meta quote" />
+    <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="meta left" />
     <keyboard-shortcut first-keystroke="ctrl a" />
-    <keyboard-shortcut first-keystroke="meta h" />
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift home" />
-    <keyboard-shortcut first-keystroke="shift meta left" />
-    <keyboard-shortcut first-keystroke="shift meta h" />
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt right" />
@@ -104,13 +103,13 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="GotoFile" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="meta alt o" />
-    <keyboard-shortcut first-keystroke="shift meta o" />
-  </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="InsertLiveTemplate" />
   <action id="MaximizeToolWindow" />
@@ -120,6 +119,9 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ParameterInfo" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
   <action id="RecentFiles" />
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem">
@@ -127,10 +129,6 @@
   </action>
   <action id="Replace" />
   <action id="Rerun" />
-  <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="meta i" />
-  </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
@@ -140,10 +138,6 @@
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="UML.ShowStructure">
     <keyboard-shortcut first-keystroke="meta f12" />
-  </action>
-  <action id="UnselectPreviousOccurrence">
-    <keyboard-shortcut first-keystroke="shift ctrl g" />
-    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
