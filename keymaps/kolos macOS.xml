@@ -129,6 +129,10 @@
   </action>
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
