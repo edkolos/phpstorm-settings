@@ -197,6 +197,10 @@
   <action id="GotoBookmark9" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
@@ -212,6 +216,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="GotoTest" />
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
@@ -287,7 +294,7 @@
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl quote" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
@@ -330,7 +337,9 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="Uml.ShowDiff" />
-  <action id="UnselectPreviousOccurrence" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
