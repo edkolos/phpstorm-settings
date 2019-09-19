@@ -6,7 +6,11 @@
   <action id="CheckinProject" />
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
-    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -16,10 +20,6 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="shift meta l" />
-  </action>
-  <action id="EditorEscape">
-    <keyboard-shortcut first-keystroke="escape" />
-    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
@@ -107,6 +107,7 @@
   <action id="GotoClass" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
@@ -115,10 +116,16 @@
   <action id="MaximizeToolWindow" />
   <action id="MethodHierarchy" />
   <action id="MinimizeCurrentWindow" />
+  <action id="NavBar-cancel">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PopupMenu-cancel">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -128,6 +135,7 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Replace" />
+  <action id="ReplaceInPath" />
   <action id="Rerun" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
