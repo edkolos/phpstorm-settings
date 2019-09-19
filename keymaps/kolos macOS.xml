@@ -15,20 +15,20 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
-    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
-    <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
-    <keyboard-shortcut first-keystroke="meta j" />
+    <keyboard-shortcut first-keystroke="meta h" />
   </action>
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
-    <keyboard-shortcut first-keystroke="shift meta j" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -70,11 +70,11 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
-    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
-    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -148,6 +148,14 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Table-selectPreviousColumnExtendSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
+  </action>
+  <action id="Tree-selectParentExtendSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
+  </action>
   <action id="UML.ShowStructure">
     <keyboard-shortcut first-keystroke="meta f12" />
   </action>
