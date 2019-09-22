@@ -1,4 +1,8 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -139,10 +143,6 @@
   <action id="Replace" />
   <action id="ReplaceInPath" />
   <action id="Rerun" />
-  <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="meta quote" />
-  </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="Switcher">
