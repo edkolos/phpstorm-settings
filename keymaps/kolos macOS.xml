@@ -1,7 +1,7 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
-    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="meta quote" />
   </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -19,26 +19,22 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
-    <keyboard-shortcut first-keystroke="meta j" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
-    <keyboard-shortcut first-keystroke="shift meta j" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
     <keyboard-shortcut first-keystroke="meta h" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
     <keyboard-shortcut first-keystroke="shift meta h" />
-  </action>
-  <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="meta right" />
-    <keyboard-shortcut first-keystroke="ctrl e" />
-    <keyboard-shortcut first-keystroke="meta o" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift end" />
@@ -74,11 +70,11 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
-    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
-    <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
   </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -99,10 +95,6 @@
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
-  <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="meta f12" />
-    <keyboard-shortcut first-keystroke="meta n" />
-  </action>
   <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -112,16 +104,26 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
   <action id="Images.Editor.ToggleGrid" />
   <action id="InsertLiveTemplate" />
+  <action id="List-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="MaximizeToolWindow" />
   <action id="MethodHierarchy" />
   <action id="MinimizeCurrentWindow" />
   <action id="NavBar-cancel">
     <keyboard-shortcut first-keystroke="escape" />
+  </action>
+  <action id="NavBar-selectEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -141,20 +143,27 @@
   <action id="Replace" />
   <action id="ReplaceInPath" />
   <action id="Rerun" />
-  <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="meta quote" />
-  </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowProjectStructureSettings" />
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Table-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="Table-selectNextColumnExtendSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
+  </action>
   <action id="Table-selectPreviousColumnExtendSelection">
     <keyboard-shortcut first-keystroke="shift left" />
     <keyboard-shortcut first-keystroke="shift meta h" />
+  </action>
+  <action id="Tree-selectChildExtendSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
   </action>
   <action id="Tree-selectParentExtendSelection">
     <keyboard-shortcut first-keystroke="shift left" />
