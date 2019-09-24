@@ -277,10 +277,6 @@
   <action id="RunDashboard.UngroupConfigurations">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
-  <action id="RunJsbtTask">
-    <keyboard-shortcut first-keystroke="alt f11" />
-    <keyboard-shortcut first-keystroke="alt g" />
-  </action>
   <action id="SavaAs" />
   <action id="ScrollTreeToCenter" />
   <action id="SelectIn">
