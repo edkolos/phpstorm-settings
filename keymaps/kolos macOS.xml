@@ -1,8 +1,4 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
-  <action id="AceAction">
-    <keyboard-shortcut first-keystroke="ctrl semicolon" />
-    <keyboard-shortcut first-keystroke="meta quote" />
-  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -95,12 +91,22 @@
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="meta t" />
