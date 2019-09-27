@@ -2,7 +2,7 @@
   <component name="VimSettings">
     <state version="5" enabled="true" />
     <shortcut-conflicts>
-      <shortcut-conflict owner="ide">
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed N</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
