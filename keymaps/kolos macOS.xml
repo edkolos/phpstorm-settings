@@ -105,7 +105,9 @@
   </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
+  <action id="GotoTest" />
   <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
@@ -141,8 +143,12 @@
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="Switcher">
