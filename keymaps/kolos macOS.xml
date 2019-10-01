@@ -1,8 +1,4 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
-  <action id="AceAction">
-    <keyboard-shortcut first-keystroke="ctrl semicolon" />
-    <keyboard-shortcut first-keystroke="meta quote" />
-  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -11,10 +7,6 @@
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="meta r" />
-  </action>
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta back_space" />
-    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -67,11 +59,6 @@
     <keyboard-shortcut first-keystroke="shift alt left" />
     <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
-  <action id="EditorRight">
-    <keyboard-shortcut first-keystroke="right" />
-    <keyboard-shortcut first-keystroke="ctrl f" />
-    <keyboard-shortcut first-keystroke="meta semicolon" />
-  </action>
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
     <keyboard-shortcut first-keystroke="shift meta semicolon" />
@@ -95,12 +82,22 @@
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="meta t" />
@@ -108,7 +105,9 @@
   </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
+  <action id="GotoTest" />
   <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
@@ -136,13 +135,20 @@
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="Replace" />
-  <action id="ReplaceInPath" />
   <action id="Rerun" />
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="Switcher">
@@ -179,4 +185,8 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="emacsIDEAs.AceJump">
+    <keyboard-shortcut first-keystroke="alt m" />
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
 </keymap>
