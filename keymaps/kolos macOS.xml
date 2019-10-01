@@ -4,10 +4,6 @@
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject" />
-  <action id="EditorDelete">
-    <keyboard-shortcut first-keystroke="delete" />
-    <keyboard-shortcut first-keystroke="meta r" />
-  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
