@@ -13,11 +13,14 @@
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
     <keyboard-shortcut first-keystroke="meta h" />
-    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
