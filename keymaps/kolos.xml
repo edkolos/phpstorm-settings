@@ -63,9 +63,7 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-  </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt l" />
@@ -266,6 +264,7 @@
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.RemoveConfiguration">
