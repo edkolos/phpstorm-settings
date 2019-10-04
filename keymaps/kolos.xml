@@ -190,6 +190,7 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="ctrl quote" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl t" />
@@ -284,9 +285,7 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
-  <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
+  <action id="SelectNextOccurrence" />
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Diff" />
