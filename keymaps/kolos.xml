@@ -41,6 +41,7 @@
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Remove">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
