@@ -41,6 +41,7 @@
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Remove">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
@@ -62,7 +63,9 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
-  <action id="EditorDeleteLine" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt l" />
@@ -72,11 +75,11 @@
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
-  <action id="EditorJoinLines" />
-  <action id="EditorLeft">
-    <keyboard-shortcut first-keystroke="left" />
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
     <keyboard-shortcut first-keystroke="shift ctrl j" />
@@ -121,10 +124,7 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="EditorSplitLine" />
-  <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
+  <action id="EditorStartNewLine" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="alt period" />
@@ -262,6 +262,9 @@
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.RemoveConfiguration">
