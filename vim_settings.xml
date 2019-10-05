@@ -71,7 +71,7 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed A</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>meta pressed B</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
@@ -88,6 +88,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>meta pressed I</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>meta pressed F</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
