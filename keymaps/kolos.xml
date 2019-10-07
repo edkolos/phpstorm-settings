@@ -41,6 +41,7 @@
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Remove">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
@@ -62,9 +63,7 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-  </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt l" />
@@ -74,11 +73,11 @@
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
-  <action id="EditorJoinLines" />
-  <action id="EditorLeft">
-    <keyboard-shortcut first-keystroke="left" />
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
     <keyboard-shortcut first-keystroke="shift ctrl j" />
@@ -123,10 +122,7 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="EditorSplitLine" />
-  <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
+  <action id="EditorStartNewLine" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="alt period" />
@@ -192,6 +188,7 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="ctrl quote" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl t" />
@@ -267,6 +264,7 @@
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.RemoveConfiguration">
@@ -286,9 +284,7 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
-  <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
+  <action id="SelectNextOccurrence" />
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Diff" />
