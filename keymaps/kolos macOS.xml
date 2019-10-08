@@ -85,7 +85,6 @@
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
-  <action id="Find" />
   <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
