@@ -32,6 +32,9 @@
       <shortcut-conflict owner="ide">
         <text>meta pressed O</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>meta pressed C</text>
+      </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>meta pressed S</text>
       </shortcut-conflict>
