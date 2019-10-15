@@ -54,6 +54,9 @@
         <text>ctrl pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
+        <text>shift pressed TAB</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
         <text>shift pressed ENTER</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
