@@ -6,6 +6,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="account-dropdown.less" type="Less" />
       <mapping pattern="Present and past.md" type="Markdown" />
+      <mapping ext=" functions and program structure" type="ObjectiveC" />
       <mapping pattern="VERSION" type="PLAIN_TEXT" />
       <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
       <mapping pattern="11111111111111" type="PLAIN_TEXT" />
