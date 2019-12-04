@@ -17,10 +17,6 @@
     <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
-  <action id="EditorEscape">
-    <keyboard-shortcut first-keystroke="escape" />
-    <keyboard-shortcut first-keystroke="meta j" />
-  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
