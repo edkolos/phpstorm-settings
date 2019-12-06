@@ -4,6 +4,7 @@
       <mapping pattern="*.js.example" type="ECMAScript 6" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping ext="dist" type="JSON" />
       <mapping pattern="account-dropdown.less" type="Less" />
       <mapping pattern="Present and past.md" type="Markdown" />
       <mapping pattern="123" type="PLAIN_TEXT" />
