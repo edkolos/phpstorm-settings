@@ -99,6 +99,10 @@
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="GotoLine" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="GotoSuperMethod" />
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration">
