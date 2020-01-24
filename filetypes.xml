@@ -7,9 +7,9 @@
       <mapping ext="dist" type="JSON" />
       <mapping pattern="account-dropdown.less" type="Less" />
       <mapping pattern="Present and past.md" type="Markdown" />
-      <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="123" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="11111111111111" type="PLAIN_TEXT" />
       <mapping pattern=".ideavimrc" type="PLAIN_TEXT" />
       <mapping pattern="_lg-section-2.pug" type="PLAIN_TEXT" />
