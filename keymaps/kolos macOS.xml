@@ -2,8 +2,15 @@
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ChangesView.Diff" />
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject" />
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
@@ -14,7 +21,6 @@
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="EditorLeft">
@@ -76,6 +82,7 @@
     <keyboard-shortcut first-keystroke="shift up" />
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
@@ -160,6 +167,9 @@
   </action>
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="RunDashboard.CopyConfiguration">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
@@ -169,6 +179,7 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings" />
   <action id="Switcher">
@@ -209,8 +220,12 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="XDebugger.CopyWatch">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="emacsIDEAs.AceJump">
     <keyboard-shortcut first-keystroke="alt m" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="openAssertEqualsDiff" />
 </keymap>

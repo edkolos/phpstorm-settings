@@ -14,7 +14,7 @@
       <shortcut-conflict owner="ide">
         <text>meta pressed E</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>meta pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
