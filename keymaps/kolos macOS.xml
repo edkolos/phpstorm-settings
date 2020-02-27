@@ -66,12 +66,12 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt up" />
-    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt down" />
-    <keyboard-shortcut first-keystroke="shift meta g" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -166,6 +166,7 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="Replace" />
+  <action id="ReplaceInPath" />
   <action id="Rerun" />
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="meta t" />
