@@ -1,4 +1,5 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
+  <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -168,8 +169,12 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
-  <action id="Replace" />
-  <action id="ReplaceInPath" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="Rerun" />
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="meta t" />
