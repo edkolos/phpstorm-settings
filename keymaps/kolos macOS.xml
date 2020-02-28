@@ -1,4 +1,8 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -7,6 +11,9 @@
   <action id="CheckinProject" />
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta d" />
