@@ -85,14 +85,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="ctrl i" />
-  </action>
-  <action id="EditorLineStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift home" />
-    <keyboard-shortcut first-keystroke="shift ctrl i" />
-  </action>
   <action id="EditorMatchBrace" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -286,7 +278,9 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
-  <action id="SelectNextOccurrence" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
   <action id="SendEOF" />
   <action id="SetShortcutAction">
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -333,6 +327,7 @@
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
