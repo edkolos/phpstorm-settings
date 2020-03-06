@@ -251,6 +251,10 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -302,9 +306,7 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="SurroundWith" />
-  <action id="SurroundWithLiveTemplate">
-    <keyboard-shortcut first-keystroke="alt t" />
-  </action>
+  <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
