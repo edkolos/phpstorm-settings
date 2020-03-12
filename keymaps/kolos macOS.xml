@@ -129,6 +129,7 @@
   <action id="Images.Editor.ToggleGrid" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceVariable" />
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -148,6 +149,9 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
   <action id="PopupMenu-cancel">
     <keyboard-shortcut first-keystroke="escape" />
   </action>
