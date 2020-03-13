@@ -218,6 +218,7 @@
   <action id="Images.Thumbnails.Hide" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceVariable" />
   <action id="MaximizeToolWindow" />
   <action id="MethodHierarchy" />
   <action id="NavBar-selectEnd">
@@ -237,6 +238,10 @@
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="ctrl alt j" />
