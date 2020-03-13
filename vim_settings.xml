@@ -101,6 +101,9 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed A</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift ctrl pressed R</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
     <editor />
     <notifications>
