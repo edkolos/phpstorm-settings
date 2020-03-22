@@ -1,4 +1,7 @@
 <keymap version="1" name="kolos macOS" parent="Mac OS X 10.5+">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -38,17 +41,8 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
-  <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift end" />
-    <keyboard-shortcut first-keystroke="shift meta right" />
-    <keyboard-shortcut first-keystroke="shift meta o" />
-  </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift home" />
-  </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt right" />
@@ -121,6 +115,10 @@
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -130,6 +128,10 @@
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceVariable" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+  </action>
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -247,7 +249,7 @@
   </action>
   <action id="emacsIDEAs.AceJump">
     <keyboard-shortcut first-keystroke="alt m" />
-    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
